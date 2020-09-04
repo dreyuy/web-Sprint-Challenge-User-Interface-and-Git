@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-#box-1 {
+.box-1 {
     background-color: teal;
 }
 #box-2 {
@@ -135,7 +135,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -205,25 +204,25 @@ header nav a {
 .strategy {
     width: 45%;
     margin: 25px;
-    border-bottom-style: 1px dotted black;
+    border-bottom: 1px dotted black;
 }
 
 .how-we-work {
     width: 40%;
     margin: 25px;
-    border-bottom-style: 1px dotted black;
+    border-bottom: 1px dotted black;
 }
 
 .places-we-work {
     width: 45%;
     margin: 25px;
-    border-bottom-style: 1px dotted black;
+    border-bottom: 1px dotted black;
 }
 
 .collaboration {
     width: 40%;
     margin: 25px;
-    border-bottom-style: 1px dotted black;
+    border-bottom: 1px dotted black;
 }
 
 .main-content {
