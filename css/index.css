@@ -145,6 +145,11 @@ footer nav a {
     text-decoration: none;
 }
 
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 header nav {
     width: 70%;
     display: flex;
