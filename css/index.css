@@ -197,7 +197,6 @@ header nav a {
     text-decoration: none;
 }
 
-.top-info {
-    border-bottom-style: dotted;
-    margin: 8px;
+.bottom-header {
+font-size: 30px;
 }
