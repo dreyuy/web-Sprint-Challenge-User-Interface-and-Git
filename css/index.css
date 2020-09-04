@@ -101,6 +101,37 @@ p {
     justify-content: space-evenly;
 }
 
+#box-1 {
+    background-color: teal;
+}
+#box-2 {
+    background-color: gold ;
+}
+#box-3 {
+    background-color: cadetblue ;
+}
+#box-4 {
+    background-color:coral ;
+}
+#box-5 {
+    background-color: crimson ;
+}
+#box-6 {
+    background-color: forestgreen;
+}
+#box-7 {
+    background-color: darkorchid ;
+}
+#box-8 {
+    background-color: hotpink;
+}
+#box-9 {
+    background-color: indigo ;
+}
+#box-10 {
+    background-color: dodgerblue ;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -143,4 +174,75 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    margin: 8px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-header {
+    border-bottom-style: 1px dotted black;
+    margin: 15px;
+}
+
+.strategy {
+    width: 45%;
+    margin: 25px;
+    border-bottom-style: 1px dotted black;
+}
+
+.how-we-work {
+    width: 40%;
+    margin: 25px;
+    border-bottom-style: 1px dotted black;
+}
+
+.places-we-work {
+    width: 45%;
+    margin: 25px;
+    border-bottom-style: 1px dotted black;
+}
+
+.collaboration {
+    width: 40%;
+    margin: 25px;
+    border-bottom-style: 1px dotted black;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.learn-more {
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    width: 100px;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
