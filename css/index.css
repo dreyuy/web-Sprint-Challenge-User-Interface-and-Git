@@ -205,21 +205,25 @@ header nav a {
 .strategy {
     width: 45%;
     margin: 25px;
+    border-bottom-style: 1px dotted black;
 }
 
 .how-we-work {
     width: 40%;
     margin: 25px;
+    border-bottom-style: 1px dotted black;
 }
 
 .places-we-work {
-    width: 40%;
+    width: 45%;
     margin: 25px;
+    border-bottom-style: 1px dotted black;
 }
 
 .collaboration {
     width: 40%;
     margin: 25px;
+    border-bottom-style: 1px dotted black;
 }
 
 .main-content {
@@ -230,8 +234,15 @@ header nav a {
 }
 
 .learn-more {
-    margin: 10px;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 20px;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    width: 100px;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
