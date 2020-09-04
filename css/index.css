@@ -199,5 +199,21 @@ header nav a {
 
 .bottom-header {
     border-bottom-style: 1px dotted black;
-    margin: 10px;
+    margin: 15px;
+}
+
+.strategy {
+    width: 45%;
+}
+
+.how-we-work {
+    width: 45%
+}
+
+.places-we-work {
+    width: 45%
+}
+
+.collaboration {
+    width: 45%
 }
