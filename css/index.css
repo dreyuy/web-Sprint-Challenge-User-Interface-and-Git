@@ -217,3 +217,9 @@ header nav a {
 .collaboration {
     width: 45%
 }
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
