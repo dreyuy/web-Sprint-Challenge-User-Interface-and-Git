@@ -204,18 +204,22 @@ header nav a {
 
 .strategy {
     width: 45%;
+    margin: 25px;
 }
 
 .how-we-work {
-    width: 45%
+    width: 45%;
+    margin: 25px;
 }
 
 .places-we-work {
-    width: 45%
+    width: 45%;
+    margin: 25px;
 }
 
 .collaboration {
-    width: 45%
+    width: 45%;
+    margin: 25px;
 }
 
 .main-content {
@@ -223,4 +227,11 @@ header nav a {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.learn-more {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
 }
